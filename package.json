@@ -6,7 +6,7 @@
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist",
     "dev": "vite --mode development",
-    "build": "vite build",
+    "build": "vite build --base=/pokeAPIReact ",
     "serve": "vite preview"
   },
   "dependencies": {
