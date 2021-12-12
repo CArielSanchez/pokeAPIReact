@@ -49,7 +49,7 @@ export const PokeGroup = ({
             title="•••"
           />
         ) : (
-          ``
+          ""
         )}
       </Grid>
     </Grid>
