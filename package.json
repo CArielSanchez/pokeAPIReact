@@ -1,7 +1,10 @@
 {
   "name": "my-poke-houm",
   "version": "0.0.0",
+  "homepage": "https://CArielSanchez.github.io/pokeAPIReact",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite --mode development",
     "build": "vite build",
     "serve": "vite preview"
@@ -12,6 +15,7 @@
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
     "axios": "^0.24.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
